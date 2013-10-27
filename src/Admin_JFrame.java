@@ -327,7 +327,7 @@ int lab;
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         if("".equals(jTextField1.getText())||"".equals(jTextField2.getText())||"".equals(jTextField3.getText())||"".equals(jTextField4.getText())||"".equals(jTextField5.getText())||jComboBox1.getSelectedIndex()==0||jComboBox4.getSelectedIndex()==0){
             ImageIcon icon = new ImageIcon(getClass().getResource("/images/Data-Delete-database-icon.png"));    
-            JOptionPane.showMessageDialog(null, "Заповнені не всі поля!", "ERROR", JOptionPane.INFORMATION_MESSAGE,icon);
+            JOptionPane.showMessageDialog(null, "Заповнені не всі поля!", "ПОМИЛКА", JOptionPane.INFORMATION_MESSAGE,icon);
         }
         else{
         String Question = jTextField1.getText();
